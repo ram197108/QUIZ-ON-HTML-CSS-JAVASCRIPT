@@ -1,0 +1,262 @@
+<html>
+<style>
+body {
+    background-color: #0F172A; 
+    color: #E2E8F0;            
+}
+input type
+{
+dispaly:flex;
+color: #0F172A;
+}
+
+h1 {
+    background-color: #1E293B;
+    color: #22C55E;           
+    border: 3px solid #22C55E;
+    border-radius: 15px;
+    padding: 15px;
+}
+button {
+    background-color: #22C55E;
+    color: #0F172A;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16A34A;
+}
+#name
+{
+background-color: #22C55E;
+    color: #0F172A;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#name:hover {
+    background-color: #16A34A;
+}
+
+</style>
+<body>
+
+<input type="name" name="name" id="name" placeholder="ENTER YOUR NAME">
+
+
+<h1>what is thefull form of html ?</h1>
+<input type="radio" name="q1" id="ans">HYPERTEXT MARKUP LANGUAGE
+<input type="radio" name="q1">high tech markup language
+<input type="radio" name="q1">high tech machine learning
+<input type="radio" name="q1">honest technical markup language
+
+
+<h1>what is the full form of ul ?</h1>
+<input type="radio" name="q2" >unarranged list
+<input type="radio" name="q2">unique list
+<input type="radio" name="q2" id="ans1">unorder list
+<input type="radio" name="q2">unmanageable list
+
+
+
+
+<h1>can you build ui/ux  after the completion of the course ?</h1>
+<input type="radio" name="q3" id="ans3" >true
+<input type="radio" name="q3">false
+<input type="radio" name="q3" >both (a) and(b)
+<input type="radio" name="q3">none of these
+
+
+<h1>html tags include the src which refer"link" ?</h1>
+<input type="radio" name="q4"  >true
+<input type="radio" name="q4" id="ans4" >false
+<input type="radio" name="q4" >both (a) and(b)
+<input type="radio" name="q4">none of these
+
+
+
+<h1>we learn all the development of website and application ?</h1>
+<input type="radio" name="q5" id="ans5" >true
+<input type="radio" name="q5">false
+<input type="radio" name="q5" >both (a) and(b)
+<input type="radio" name="q5">none of these
+
+
+<h1>is this one a six month course ?</h1>
+<input type="radio" name="q6"  >true
+<input type="radio" name="q6" id="ans6">false
+<input type="radio" name="q6" >both (a) and(b)
+<input type="radio" name="q6">none of these
+
+
+<h1>Are you able to do a coding After completion of the program?</h1>
+<input type="radio" name="q7" id="ans7" >true
+<input type="radio" name="q7">false
+<input type="radio" name="q7" >both (a) and(b)
+<input type="radio" name="q7">none of these
+
+
+<h1>does the coach you for interview also ?</h1>
+<input type="radio" name="q8" id="ans8" >true
+<input type="radio" name="q8">false
+<input type="radio" name="q8" >both (a) and(b)
+<input type="radio" name="q8">none of these
+
+<h1>does elysium has an two company ?</h1>
+<input type="radio" name="q9">true
+<input type="radio" name="q9" id="ans9">false
+<input type="radio" name="q9" >both (a) and(b)
+<input type="radio" name="q9">none of these
+
+<h1>how are happy about the mcq ?</h1>
+<input type="radio" name="q10" id="ans10" >verygood
+<input type="radio" name="q10 " id="ans11">okay
+<input type="radio" name="q10"id="ans12" >maybe can do better
+<input type="radio" name="q10"id="ans13">worst
+
+
+
+<button onclick="Ram()" >submit</button>
+<script>
+
+
+
+
+function Ram()
+{
+score=0;
+a=document.getElementById("ans")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans1")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans3")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans4")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans5")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans6")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans7")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans8")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans9")
+if(a.checked)
+{
+score=score+1
+}
+a=document.getElementById("ans10")
+b=document.getElementById("ans11")
+c=document.getElementById("ans12")
+d=document.getElementById("ans13")
+if(a.checked)
+{
+score=score+1
+console.log("happy")
+}
+else if(b.checked)
+{
+score=score+1
+console.log("okay")
+}
+else if(c.checked)
+{
+score=score+1
+console.log("can do better")
+}
+else if(d.checked)
+{
+score=score+1
+console.log("sad")
+}
+a=document.getElementById("name").value;
+document.write(`
+<div style="
+    width: 70%;
+    margin: 80px auto;
+    padding: 50px;
+    text-align: center;
+    background: #fffdf5;
+    border: 8px solid #D4AF37;
+    outline: 3px solid #22C55E;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    font-family: Georgia, serif;
+">
+    <h1 style="
+        color: #0F172A;
+        font-size: 42px;
+    ">
+        🏆 CERTIFICATE OF COMPLETION
+    </h1>
+
+    <p style="
+        font-size: 24px;
+        color: #475569;
+    ">
+        Congratulations!
+    </p>
+        <p style="font-size:38px;">
+              ${a}
+        </p>
+
+    <p style="font-size: 20px;">
+       You have successfully completed the quiz.
+    </p>
+
+    <h2 style="
+        color: #16A34A;
+        font-size: 55px;
+    ">
+        ${score} / 10
+    </h2>
+
+    <p style="
+        font-size: 18px;
+        color: #64748B;
+    ">
+        Final Score
+    </p>
+</div>
+`);
+
+window.print()
+}
+
+
+</script>
+</body>
+</html>
